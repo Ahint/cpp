@@ -33,7 +33,7 @@ int main()
     while (1)
     {
         int n;
-        cout << "\n\tEnter 0 to exit\n\tWARNING: Program is limited till 46th term.\n\tEnter the term  where you want fibonaaci series: ";
+        cout << "\n\tEnter 0 to exit\n\tWARNING: Program is limited till 46th term.\n\tEnter the term till where you want fibonaaci series: ";
         cin >> n;
 
         if (n==0)
