@@ -8,13 +8,9 @@ void fibonaaci(int a)
 
     for (int i = 1; i <= a; i++)
     {
-        if (i == 1)
+        if (i == 1 || i == 2)
         {
-            fibobox[1] = 1;
-        }
-        else if (i == 2)
-        {
-            fibobox[2] = 1;
+            fibobox[i] = 1;
         }
         else
         {
