@@ -20,12 +20,17 @@ void fibonaaci(int a)
 
     cout<<"\t\t";
     
-    for (int b = 1; b <= a; b++)
+   for (int b = 1; b <= a; b++)
     {
-        cout << fibobox[b] << ",";
+        if (b == a)
+        {
+            cout << fibobox[a]<<".";
+        }
+        else
+        {
+            cout << fibobox[b] << ",";
+        }
     }
-    
-    
 }
 
 int main()
