@@ -11,7 +11,6 @@ void fibonaaci(int a)
 
     for (int i = 3; i <= a; i++)
     {
-
         fibobox[i] = (fibobox[i - 2] + fibobox[i - 1]);
     }
 
